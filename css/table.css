@@ -1,0 +1,35 @@
+td {
+    padding: 10px;
+}
+
+th {
+    text-align: left;
+    background-color: #6aa6da;
+}
+
+tr:nth-child(2n) {
+    background-color: #E1E5Ac;
+}
+
+tr:nth-child(2n+1) {
+    background-color: #eceece;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr:nth-last-child(1) {
+    background-color: #6aa6da;
+}
+
+.align-right {
+     text-align: right;
+}
+
+.subm {
+    background-color: #E1E5Ac;
+    height: 35px;
+    width: 100px;
+}

@@ -1,0 +1,124 @@
+<html>
+
+<head>
+    <title>Cтраница с таблицей с котиками</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/table.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="header">
+        <a href="index.html">Основная страница</a>
+        <a href="page2.html">Позиционирование элементов</a>
+        <a href="table.html">Таблица</a>
+    </div>
+
+    <form>
+        <table>
+            <caption>Список котиков</caption>
+            <tr>
+                <th>Кличка</th>
+                <th>Любимое <br>занятие</th>
+                <th>Характер</th>
+                <th>Кол-во "мяу" <br>в день</th>
+                <th>Особые <br>приметы</th>
+                <th>Любимая <br>игрушка</th>
+                <th>Место <br>отдыха</th>
+                <th>Способ <br>выпрашивания <br>корма</th>
+            </tr>
+
+            <tr>
+                <td>Борька <br><img src="img/1.png"></td>
+                <td>Наблюдение <br>за птицами</td>
+                <td>Любопытный <br>исследователь</td>
+                <td>17</td>
+                <td>Белое <br>пятнышко <br>на груди</td>
+                <td>Перья на <br>верёвочке</td>
+                <td>Подоконник</td>
+                <td>Тянется <br>лапой</td>
+            </tr>
+            <tr>
+                <td>Плюша<br><img src="img/2.png"></td>
+                <td>Лежание на<br>солнышке</td>
+                <td>Сонный <br>тихоня</td>
+                <td>12</td>
+                <td>Пушистый <br> хвост</td>
+                <td>Шнурок <br>от обуви</td>
+                <td>Под <br>одеялом</td>
+                <td>Ложится <br>на спину</td>
+            </tr>
+            <tr>
+                <td>Шустрик<br><img src="img/3.png"></td>
+                <td>Прыжки на <br>диван с <br>разбега</td>
+                <td>Озорной <br>непоседа</td>
+                <td>28</td>
+                <td>Полосатая <br>спинка</td>
+                <td>Хозяйский <br>носок</td>
+                <td>Стиральная <br>машина</td>
+                <td>Крутится <br>вокруг</td>
+            </tr>
+            <tr>
+                <td>Зефирка<br><img src="img/4.png"></td>
+                <td>Игра в <br>догонялки с <br>собственным <br>хвостом</td>
+                <td>Весёлый <br>проказник</td>
+                <td>42</td>
+                <td>Кисточки <br>на ушках</td>
+                <td>Фольга, <br>скатанная <br>в шарик</td>
+                <td>Пакет</td>
+                <td>Топчется <br>у ног</td>
+            </tr>
+            <tr>
+                <td>Барни<br><img src="img/5.png"></td>
+                <td>Лизание <br>пластиковых <br>пакетов</td>
+                <td>Капризный <br>баловень</td>
+                <td>39</td>
+                <td>Белые <br>носочки<br>на всех<br>лапках</td>
+                <td>Кухонная <br>губка</td>
+                <td>Клавиатура</td>
+                <td>Смотрит <br>в глаза</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="name">Как <br> зовут</label><input type="text" id="name" />
+                </td>
+                <td><label for="activity">Любимое <br> занятие</label><input id="activity" /></td>
+                <td><label for="personality">Черты  <br> характера <br></label><input id="personality" /></td>
+                <td><label for="number of meows">Кол-во "мяу" <br> в день</label><input type="number" id="group" /></td>
+                <td><label for="sign">Особые  <br>приметы</label>
+                    <select id="sign">
+                        <option value="sign1">Большие ушки</option>
+                        <option value="sign2">Разные глаза</option>
+                        <option value="sign3">Пятнышко на теле</option>
+                        <option value="sign4">Необычный окрас</option>
+                        <option value="sign5">Короткие лапки</option>
+                        <option value="sign6">Носочки на лапках</option>
+                        <option value="sign7">Пухлый</option>
+                    </select>
+                </td>
+                <td><label for="toy">Любимая  <br>игрушка</label><input type="text" id="toy" /></td>
+                <td><label for="rest">Место  <br>отдыха</label>
+                    <select id="rest">
+                        <option value="rest1">Рядом с хозяином</option>
+                        <option value="rest2">За шторой</option>
+                        <option value="rest3">В шкафу</option>
+                        <option value="rest4">На полке</option>
+                        <option value="rest5">На батарее</option>
+                        <option value="rest6">В домике</option>
+                        <option value="rest7">На подоконнике</option>
+                        <option value="rest8">На кровати</option>
+                        <option value="rest9">В переноске</option>
+                        <option value="rest10">В коробке</option>
+                        <option value="rest11">В пакете</option>
+                    </select>
+                </td>
+                <td><label for="food">Как выпрашивает <br> корм</label><input id="food" /></td>
+            </tr>
+        </table>
+        <div class="align-right">
+            <input type="submit" value="Добавить" class="subm" />
+        </div>
+    </form>
+</body>
+
+</html>
